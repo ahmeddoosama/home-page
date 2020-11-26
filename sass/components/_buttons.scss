@@ -1,5 +1,43 @@
+// desc: 'Contain buttons styles'
+
+// Button Variables
+@import '../partials/variables';
+@import '../partials/colors';
+
+// Button Style
+.btn {
+    color: $mainColor;
+    text-align: $text-align-center;
+    border: $all-btn-border;
+    background-color: unset;
+    border-radius: 0;
+    width: auto;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+        color: $mainColor;
+        opacity: $all-btn-opacity;
+    }
+
+}
+
+
+
+/* btn-search */
 .btn-search {
     border: none;
     position: absolute;
     right: 25px;
+}
+
+/* btn-service */
+.btn-service {
+    color: $gray;
+    border: 1px solid $gray;
+    opacity: .8;
+    padding: 7px 50px;
+    border-radius: 10px;
+    font-size: 18px;
 }

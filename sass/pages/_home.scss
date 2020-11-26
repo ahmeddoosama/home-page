@@ -1,0 +1,17 @@
+/* ========== Contain Home page style ========== */
+@import '../partials/variables';
+@import '../partials/colors';
+
+
+/* ========== Home page ========== */
+main {
+    section {
+        margin: $all-cards-margin;
+    }
+    .our-service {
+        text-align: $text-align-center;
+        .card-group {
+            padding: 40px 0;
+        }
+    }
+}

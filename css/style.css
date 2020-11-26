@@ -99,17 +99,91 @@ img {
   max-width: 100%;
 }
 
+/* Section Title */
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* Colors */
+/* btns */
+/* cards */
+/* Sections */
+/* Colors */
+.btn {
+  color: #b52202;
+  text-align: center;
+  border: 1px solid #b52202;
+  background-color: unset;
+  border-radius: 0;
+  width: auto;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover {
+  color: #b52202;
+  opacity: 0.5;
+}
+
+/* btn-search */
 .btn-search {
   border: none;
   position: absolute;
   right: 25px;
 }
 
+/* btn-service */
+.btn-service {
+  color: #595C61;
+  border: 1px solid #595C61;
+  opacity: 0.8;
+  padding: 7px 50px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+/* Colors */
+/* btns */
+/* cards */
+/* Sections */
+/* Colors */
+.card {
+  border: none;
+  text-align: center;
+  margin: 20px 0;
+  color: #282828;
+}
+
+/* Service Card */
+.service-card .card-top {
+  margin-bottom: 25px;
+}
+.service-card .card-top > span {
+  background-image: linear-gradient(90deg, #833ab4 0%, #a3328c 0%, #fd1d1d 0%, #f69b2b 100%, #f69b2b 100%);
+  padding: 20px 30px;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 45px;
+  box-shadow: 11px 5px 2px #DDD;
+  opacity: 0.9;
+}
+.service-card .card-body .card-title {
+  color: #595C61;
+  font-size: 25px;
+}
+
 /* ========== Contain navbar style ========== */
+/* Colors */
+/* btns */
+/* cards */
+/* Sections */
 /* Colors */
 /* ========== Navbar ========== */
 .main-nav {
-  position: absolute;
+  position: relative;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -125,7 +199,6 @@ img {
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
   top: 55px;
-  transition: all 0.2s ease-out;
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .search-bar {
   left: unset;
@@ -139,6 +212,23 @@ img {
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .flag-icon {
   max-width: 20px;
+}
+
+/* ========== Contain Home page style ========== */
+/* Colors */
+/* btns */
+/* cards */
+/* Sections */
+/* Colors */
+/* ========== Home page ========== */
+main section {
+  margin: 20px 0;
+}
+main .our-service {
+  text-align: center;
+}
+main .our-service .card-group {
+  padding: 40px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

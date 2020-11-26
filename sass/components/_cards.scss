@@ -1,0 +1,37 @@
+// desc: 'Contain Cards styles'
+
+// Button Variables
+@import '../partials/variables';
+@import '../partials/colors';
+
+// Cards Style
+.card {
+    border: none;
+    text-align: $text-align-center;
+    margin: $all-cards-margin;
+    color: $dimgray;
+}
+
+
+/* Service Card */
+.service-card {
+    .card-top {
+        margin-bottom: 25px;
+        > span {
+            background-image: $backgroundColor;
+            padding: 20px 30px;
+            border-radius: 50%;
+            color: $white;
+            font-size: 45px;
+            box-shadow: 11px 5px 2px $whitegray;
+            opacity: 0.9;
+        }
+    }
+
+    .card-body {
+        .card-title {
+            color: $gray;
+            font-size: 25px;
+        }
+    }
+}
