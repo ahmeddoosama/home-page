@@ -1,0 +1,144 @@
+/*
+Name: 			style.scss
+Written by: 	Ahmed Osama Bedawy - (https://github.com/ahmeddoosama)
+*/
+/*** 
+
+====================================================================
+  Global Settings
+====================================================================
+
+ ***/
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 1000px;
+  /* =====> Delete */
+}
+
+a {
+  text-decoration: none;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+input {
+  transition: all 500ms ease;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+  transition: all 500ms ease;
+}
+
+p {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5858;
+  font-weight: 400;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 400;
+  color: #131313;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-search {
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+
+/* ========== Contain navbar style ========== */
+/* Colors */
+/* ========== Navbar ========== */
+.main-nav {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.main-nav .navbar-collapse {
+  flex-grow: 0;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #282828;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .main-nav .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+  color: #b52202;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+  top: 55px;
+  transition: all 0.2s ease-out;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .search-bar {
+  left: unset;
+  right: 12%;
+  padding: 20px;
+  top: 73px;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu-lang {
+  left: unset;
+  right: 0;
+}
+.main-nav .navbar-collapse .navbar-nav .nav-item .flag-icon {
+  max-width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+/* ========== Contain navbar style ========== */
+@import '../partials/variables';
+@import '../partials/colors';
+
+/* ========== Navbar ========== */
+.main-nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    .navbar-collapse {
+        flex-grow: 0;
+
+        .navbar-nav {
+            
+            .nav-item {
+                .nav-link {
+                    color: $dimgray;
+
+                    &:hover,
+                    &:focus {
+                        color: $mainColor;
+                    }
+                }
+
+                .dropdown-menu {
+                    top: 55px;
+                    transition: all 0.2s ease-out;
+                }
+
+                .search-bar {
+                    left: unset;
+                    right: 12%;
+                    padding: 20px;
+                    top: 73px;
+                }
+
+                .dropdown-menu-lang {
+                    left: unset;
+                    right: 0;
+                }
+
+                .flag-icon {
+                    max-width: 20px;
+                }
+            }
+        }
+    }
+}
