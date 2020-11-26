@@ -1,3 +1,9 @@
+// desc: 'Contain Utilities styles'
+
+// Utilities Variables
+@import '../partials/variables';
+@import '../partials/colors';
+
 /*** 
 
 ====================================================================
@@ -21,10 +27,8 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    height: 1000px;
-    /* =====> Delete */
+    font-size: $body-font-size;
+    font-weight: $font-weight-400;
 }
 
 a {
@@ -46,7 +50,7 @@ button,
 select,
 textarea {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: $font-weight-400;
     font-size: 16px;
 }
 
@@ -72,8 +76,9 @@ textarea:focus {
 p {
     position: relative;
     font-family: 'Open Sans', sans-serif;
-    color: #5b5858;
-    font-weight: 400;
+    color: $gray;
+    font-weight: $font-weight-400;
+    line-height: 1.8;
     margin: 0px;
     transition: all 500ms ease;
 }
@@ -86,8 +91,8 @@ h5,
 h6 {
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400;
-    color: #131313;
+    font-weight: $font-weight-400;
+    color: $blackgray;
     margin: 0px;
     transition: all 500ms ease;
 }
@@ -98,7 +103,8 @@ img {
 
 /* Section Title */
 .section-title {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+    text-align: $text-align-center;
+    font-size: $title-font-size;
+    font-weight: $font-weight-600;
+    margin: $title-margin;
 }

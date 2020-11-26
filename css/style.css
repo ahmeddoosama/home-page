@@ -2,6 +2,14 @@
 Name: 			style.scss
 Written by: 	Ahmed Osama Bedawy - (https://github.com/ahmeddoosama)
 */
+/* Colors */
+/* Fonts */
+/* btns */
+/* cards */
+/* Sections */
+/* Section titles */
+/* Responsive */
+/* Colors */
 /*** 
 
 ====================================================================
@@ -26,8 +34,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  height: 1000px;
-  /* =====> Delete */
 }
 
 a {
@@ -75,8 +81,9 @@ textarea:focus {
 p {
   position: relative;
   font-family: "Open Sans", sans-serif;
-  color: #5b5858;
+  color: #595C61;
   font-weight: 400;
+  line-height: 1.8;
   margin: 0px;
   transition: all 500ms ease;
 }
@@ -104,12 +111,16 @@ img {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  margin: 30px 0;
 }
 
 /* Colors */
+/* Fonts */
 /* btns */
 /* cards */
 /* Sections */
+/* Section titles */
+/* Responsive */
 /* Colors */
 .btn {
   color: #b52202;
@@ -146,14 +157,17 @@ img {
 }
 
 /* Colors */
+/* Fonts */
 /* btns */
 /* cards */
 /* Sections */
+/* Section titles */
+/* Responsive */
 /* Colors */
 .card {
   border: none;
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
   color: #282828;
 }
 
@@ -177,9 +191,12 @@ img {
 
 /* ========== Contain navbar style ========== */
 /* Colors */
+/* Fonts */
 /* btns */
 /* cards */
 /* Sections */
+/* Section titles */
+/* Responsive */
 /* Colors */
 /* ========== Navbar ========== */
 .main-nav {
@@ -216,19 +233,51 @@ img {
 
 /* ========== Contain Home page style ========== */
 /* Colors */
+/* Fonts */
 /* btns */
 /* cards */
 /* Sections */
+/* Section titles */
+/* Responsive */
 /* Colors */
 /* ========== Home page ========== */
-main section {
-  margin: 20px 0;
+main {
+  /* All sections */
+  /* our-service sections */
+  /* overview sections */
 }
-main .our-service {
+main section {
+  margin: 20px 0 40px 0;
   text-align: center;
 }
 main .our-service .card-group {
-  padding: 40px 0;
+  padding-bottom: 40px;
+}
+main .overview {
+  background-image: url("../../images/background/Layer 7.png");
+  padding-top: 20px;
+  background-size: cover;
+  height: 450px;
+}
+main .overview h3 {
+  color: #FFF !important;
+}
+main .overview p {
+  font-size: 18px;
+  color: #FFF !important;
+}
+@media only screen and (max-width: 1200px) {
+  main .overview p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  main .overview {
+    height: 510px;
+  }
+  main .overview p {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

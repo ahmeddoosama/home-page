@@ -6,6 +6,16 @@ $text-align-right: right;
 $text-align-left: left;
 
 
+/* Fonts */
+$font-weight-100: 100;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$body-font-bold: bold;
+
+$body-font-size: 15px;
+
+
 /* btns */
 $all-btn-border: 1px solid $mainColor;
 $all-btn-opacity: .5;
@@ -14,4 +24,12 @@ $all-btn-opacity: .5;
 $all-cards-margin: 40px 0;
 
 /* Sections */
-$all-cards-margin: 20px 0;
+$all-section-margin: 20px 0 40px 0;
+
+/* Section titles */
+$title-font-size: 40px;
+$title-margin: 30px 0;
+
+/* Responsive */
+$smallDevices: "only screen and (max-width: 767px)"; // EX >> @media #{$mobileRules}
+$MediumDevices: "only screen and (max-width: 1200px)";

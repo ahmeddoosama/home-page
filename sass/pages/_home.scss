@@ -5,13 +5,48 @@
 
 /* ========== Home page ========== */
 main {
+    /* All sections */
     section {
-        margin: $all-cards-margin;
-    }
-    .our-service {
+        margin: $all-section-margin;
         text-align: $text-align-center;
+    }
+
+    /* our-service sections */
+    .our-service {
         .card-group {
-            padding: 40px 0;
+            padding-bottom: 40px;
         }
+    }
+
+    /* overview sections */
+    .overview {
+        
+        background-image: url('../../images/background/Layer\ 7.png');
+        padding-top: 20px;
+        background-size: cover;
+        height: 450px;
+
+        h3 {
+            color: $white !important;
+        }
+
+        p {
+            font-size: 18px;
+            color: $white !important;
+        }
+
+        @media #{$MediumDevices} {
+            p {
+                font-size: 15px;
+            }
+        }
+
+        @media #{$smallDevices} {
+            height: 510px;
+            p {
+                font-size: 12px;
+            }
+        }
+
     }
 }
