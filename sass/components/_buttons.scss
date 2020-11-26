@@ -48,3 +48,14 @@
     color: $white;
     background-color: $mainColor;
 }
+
+/* btn-submit */
+.btn-submit {
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+    padding: 8px 10px;
+    color: $white;
+    background-color: $mainColor;
+    font-weight: $font-weight-600;
+}

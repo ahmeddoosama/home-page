@@ -1,0 +1,56 @@
+/* ========== Contain Footer style ========== */
+@import '../partials/variables';
+@import '../partials/colors';
+
+/* ========== Footer ========== */
+.main-footer {
+    background-color: $dimgray;
+    color: $white;
+    padding: 50px 0;
+
+
+    .footer-title {
+        text-align: start;
+        border-bottom: 1px solid $gray;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .body-footer {
+        padding-top: 40px;
+
+        .title {
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+
+        ul {
+            > li {
+                line-height: 2;
+                color: $whitegray;
+            }
+        }
+
+        .side-right {
+            .input-form {
+                width: 60%;
+                padding: 8px 10px;
+            }
+
+            > div {
+                padding: 40px 0;
+                color: $whitegray;
+            }
+
+            .socialLinks {
+                padding: 10px 0;
+                > a {
+                    margin-right: 10px;
+                    font-size: 20px;
+                    color: $whitegray;
+                }
+            }
+        }
+
+    }
+}

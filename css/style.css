@@ -121,9 +121,9 @@ img {
 /* Responsive */
 /* Colors */
 .btn {
-  color: #b52202;
+  color: #e9673b;
   text-align: center;
-  border: 1px solid #b52202;
+  border: 1px solid #e9673b;
   background-color: unset;
   border-radius: 0;
   width: auto;
@@ -133,7 +133,7 @@ img {
   display: inline-block;
 }
 .btn:hover {
-  color: #b52202;
+  color: #e9673b;
   opacity: 0.5;
 }
 
@@ -158,7 +158,18 @@ img {
 .btn-card {
   padding: 7px 30px;
   color: #FFF;
-  background-color: #b52202;
+  background-color: #e9673b;
+}
+
+/* btn-submit */
+.btn-submit {
+  position: relative;
+  bottom: 2px;
+  right: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  background-color: #e9673b;
+  font-weight: 600;
 }
 
 /* Colors */
@@ -173,7 +184,7 @@ img {
   border: none;
   text-align: center;
   margin: 40px 0;
-  color: #282828;
+  color: #363636;
   background-color: unset;
 }
 .card .card-top {
@@ -220,7 +231,7 @@ img {
   line-height: 1;
 }
 .statistic-card:hover span {
-  color: #b52202;
+  color: #e9673b;
   background-color: #FFF;
 }
 
@@ -266,10 +277,10 @@ img {
   flex-grow: 0;
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #282828;
+  color: #363636;
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .main-nav .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
-  color: #b52202;
+  color: #e9673b;
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
   top: 55px;
@@ -286,6 +297,55 @@ img {
 }
 .main-nav .navbar-collapse .navbar-nav .nav-item .flag-icon {
   max-width: 20px;
+}
+
+/* ========== Contain Footer style ========== */
+/* Colors */
+/* Fonts */
+/* btns */
+/* cards */
+/* Sections */
+/* Section titles */
+/* Responsive */
+/* Colors */
+/* ========== Footer ========== */
+.main-footer {
+  background-color: #363636;
+  color: #FFF;
+  padding: 50px 0;
+}
+.main-footer .footer-title {
+  text-align: start;
+  border-bottom: 1px solid #595C61;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.main-footer .body-footer {
+  padding-top: 40px;
+}
+.main-footer .body-footer .title {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.main-footer .body-footer ul > li {
+  line-height: 2;
+  color: #DDD;
+}
+.main-footer .body-footer .side-right .input-form {
+  width: 60%;
+  padding: 8px 10px;
+}
+.main-footer .body-footer .side-right > div {
+  padding: 40px 0;
+  color: #DDD;
+}
+.main-footer .body-footer .side-right .socialLinks {
+  padding: 10px 0;
+}
+.main-footer .body-footer .side-right .socialLinks > a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #DDD;
 }
 
 /* ========== Contain Home page style ========== */
