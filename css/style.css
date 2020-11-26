@@ -81,7 +81,6 @@ textarea:focus {
 p {
   position: relative;
   font-family: "Open Sans", sans-serif;
-  color: #595C61;
   font-weight: 400;
   line-height: 1.8;
   margin: 0px;
@@ -97,7 +96,6 @@ h6 {
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 400;
-  color: #131313;
   margin: 0px;
   transition: all 500ms ease;
 }
@@ -169,24 +167,54 @@ img {
   text-align: center;
   margin: 40px 0;
   color: #282828;
+  background-color: unset;
+}
+.card .card-top {
+  margin-bottom: 25px;
+}
+.card .card-top > span {
+  padding: 20px 30px;
+  color: #FFF;
+  font-size: 45px;
+}
+.card .card-body .card-title {
+  font-size: 25px;
 }
 
 /* Service Card */
-.service-card .card-top {
-  margin-bottom: 25px;
-}
 .service-card .card-top > span {
   background-image: linear-gradient(90deg, #833ab4 0%, #a3328c 0%, #fd1d1d 0%, #f69b2b 100%, #f69b2b 100%);
-  padding: 20px 30px;
   border-radius: 50%;
-  color: #FFF;
-  font-size: 45px;
   box-shadow: 11px 5px 2px #DDD;
   opacity: 0.9;
 }
-.service-card .card-body .card-title {
+.service-card .card-body .card-title,
+.service-card .card-body .card-text {
   color: #595C61;
-  font-size: 25px;
+}
+
+/* statistics Card */
+.statistic-card .card-top > span {
+  padding: 10px 20px;
+  font-size: 45px;
+  border: 3px solid #FFF;
+  border-radius: 15px;
+}
+.statistic-card .card-body {
+  color: #FFF;
+}
+.statistic-card .card-body .card-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.statistic-card .card-body .card-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+.statistic-card:hover span {
+  color: #b52202;
+  background-color: #FFF;
 }
 
 /* ========== Contain navbar style ========== */
@@ -245,6 +273,9 @@ main {
   /* All sections */
   /* our-service sections */
   /* overview sections */
+  /* statistics sections */
+  /* overview sections */
+  /* statistics sections */
 }
 main section {
   margin: 20px 0 40px 0;
@@ -253,14 +284,18 @@ main section {
 main .our-service .card-group {
   padding-bottom: 40px;
 }
-main .overview {
-  background-image: url("../../images/background/Layer 7.png");
+main .overview,
+main .statistics {
   padding-top: 20px;
   background-size: cover;
   height: 450px;
 }
-main .overview h3 {
+main .overview h3,
+main .statistics h3 {
   color: #FFF !important;
+}
+main .overview {
+  background: url("../../images/background/Layer 7.png") no-repeat center center fixed;
 }
 main .overview p {
   font-size: 18px;
@@ -278,6 +313,10 @@ main .overview p {
   main .overview p {
     font-size: 12px;
   }
+}
+main .statistics {
+  background: url("../../images/background/Layer 8.png") no-repeat center center fixed;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

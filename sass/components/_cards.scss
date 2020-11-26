@@ -10,28 +10,70 @@
     text-align: $text-align-center;
     margin: $all-cards-margin;
     color: $dimgray;
+    background-color: unset;
+    .card-top {
+        margin-bottom: 25px;
+        > span {
+            padding: 20px 30px;
+            color: $white;
+            font-size: 45px;
+        }
+    }
+
+    .card-body {
+        .card-title {
+            font-size: 25px;
+        }
+    }
 }
 
 
 /* Service Card */
 .service-card {
     .card-top {
-        margin-bottom: 25px;
         > span {
             background-image: $backgroundColor;
-            padding: 20px 30px;
             border-radius: 50%;
-            color: $white;
-            font-size: 45px;
             box-shadow: 11px 5px 2px $whitegray;
             opacity: 0.9;
         }
     }
 
     .card-body {
-        .card-title {
+        .card-title,
+        .card-text {
             color: $gray;
-            font-size: 25px;
+        }
+    }
+}
+
+/* statistics Card */
+.statistic-card {
+    .card-top {
+        > span {
+            padding: 10px 20px;
+            font-size: 45px;
+            border: 3px solid $white;
+            border-radius: 15px;
+        }
+    }
+
+    .card-body {
+        color: $white;
+        .card-title {
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .card-text {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1;
+        }
+    }
+    &:hover {
+         span {
+            color: $mainColor;
+            background-color: $white;
         }
     }
 }

@@ -76,7 +76,6 @@ textarea:focus {
 p {
     position: relative;
     font-family: 'Open Sans', sans-serif;
-    color: $gray;
     font-weight: $font-weight-400;
     line-height: 1.8;
     margin: 0px;
@@ -92,7 +91,6 @@ h6 {
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: $font-weight-400;
-    color: $blackgray;
     margin: 0px;
     transition: all 500ms ease;
 }

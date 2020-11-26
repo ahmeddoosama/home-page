@@ -19,17 +19,20 @@ main {
     }
 
     /* overview sections */
-    .overview {
-        
-        background-image: url('../../images/background/Layer\ 7.png');
+    /* statistics sections */
+    .overview,
+    .statistics {
         padding-top: 20px;
         background-size: cover;
         height: 450px;
-
         h3 {
             color: $white !important;
         }
+    }
 
+    /* overview sections */
+    .overview {
+        background: url('../../images/background/Layer\ 7.png') no-repeat center center fixed;
         p {
             font-size: 18px;
             color: $white !important;
@@ -48,5 +51,11 @@ main {
             }
         }
 
+    }
+
+    /* statistics sections */
+    .statistics {
+        background: url('../../images/background/Layer\ 8.png') no-repeat center center fixed;
+        padding-bottom: 20px;
     }
 }
