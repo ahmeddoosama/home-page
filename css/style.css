@@ -154,6 +154,13 @@ img {
   font-size: 18px;
 }
 
+/* btn-card */
+.btn-card {
+  padding: 7px 30px;
+  color: #FFF;
+  background-color: #b52202;
+}
+
 /* Colors */
 /* Fonts */
 /* btns */
@@ -215,6 +222,28 @@ img {
 .statistic-card:hover span {
   color: #b52202;
   background-color: #FFF;
+}
+
+/* Nwes Card */
+.new-card {
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(110, 110, 110, 0.2);
+  max-width: 30.333333%;
+  margin-right: 3%;
+}
+.new-card .card-body .card-title {
+  font-weight: 600;
+  font-size: 21px;
+}
+.new-card .card-body .data {
+  color: #595C61;
+}
+.new-card .card-body .card-text {
+  font-size: 16px;
+}
+.new-card .card-bottom {
+  margin: 0 0 20px 20px;
 }
 
 /* ========== Contain navbar style ========== */

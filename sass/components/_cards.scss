@@ -77,3 +77,27 @@
         }
     }
 }
+
+/* Nwes Card */
+.new-card {
+    text-align: $text-align-left;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(110, 110, 110, 0.2);
+    max-width: 30.333333%;
+    margin-right: 3%;
+    .card-body {
+        .card-title {
+            font-weight: $font-weight-600;
+            font-size: 21px;
+        }
+        .data {
+            color: $gray;
+        }
+        .card-text {
+            font-size: 16px;
+        }
+    }
+    .card-bottom {
+        margin: 0 0 20px 20px;
+    }
+}
