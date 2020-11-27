@@ -172,6 +172,15 @@ img {
   font-weight: 600;
 }
 
+/* social-btn */
+.social-btn {
+  border: none;
+  background-color: #0b2134;
+  color: #FFF;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
 /* Colors */
 /* Fonts */
 /* btns */
@@ -255,6 +264,32 @@ img {
 }
 .new-card .card-bottom {
   margin: 0 0 20px 20px;
+}
+
+/* executive-card */
+.executive-card {
+  margin: 0;
+}
+.executive-card .card-body .card-title {
+  font-size: 23px !important;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.executive-card .card-body span {
+  font-weight: bold;
+  color: #e9673b;
+}
+
+.side-left .executive-card {
+  text-align: start;
+  box-shadow: 0 5px 15px 0 rgba(110, 110, 110, 0.2);
+}
+.side-left .executive-card .card-text {
+  padding: 30px 0px;
+}
+.side-left .executive-card .card_bottom {
+  border-top: 1px solid #DDD;
+  padding-top: 25px;
 }
 
 /* ========== Contain navbar style ========== */
@@ -385,7 +420,7 @@ main .statistics h3 {
   color: #FFF !important;
 }
 main .overview {
-  background: url("../../images/background/Layer 7.png") no-repeat center center fixed;
+  background: url("../../images/background/Layer 7.png") no-repeat center center;
 }
 main .overview p {
   font-size: 18px;
@@ -405,7 +440,7 @@ main .overview p {
   }
 }
 main .statistics {
-  background: url("../../images/background/Layer 8.png") no-repeat center center fixed;
+  background: url("../../images/background/Layer 8.png") no-repeat center center;
   padding-bottom: 20px;
 }
 main .partenr {

@@ -59,3 +59,12 @@
     background-color: $mainColor;
     font-weight: $font-weight-600;
 }
+
+/* social-btn */
+.social-btn {
+    border: none;
+    background-color: $blue;
+    color: $white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
