@@ -58,4 +58,31 @@ main {
         background: url('../../images/background/Layer\ 8.png') no-repeat center center fixed;
         padding-bottom: 20px;
     }
+
+    /* Partner Section */
+    .partenr {
+        background-image: url('../../images/background/Rectangle\ 10.png');
+        padding-top: 5px;
+        margin: 20px 0 0 0;
+
+
+        .section-title {
+            margin: 0;
+            padding: 20px 0 90px 0;
+            color: $white;
+        }
+
+        .owl-carousel {
+            .owl-nav,
+            .owl-dots {
+            display: none;
+            }
+
+            
+
+            .owl-item  {
+                margin-right: 40px !important;
+            }
+        }
+    }
 }

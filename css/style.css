@@ -365,6 +365,7 @@ main {
   /* statistics sections */
   /* overview sections */
   /* statistics sections */
+  /* Partner Section */
 }
 main section {
   margin: 20px 0 40px 0;
@@ -406,6 +407,23 @@ main .overview p {
 main .statistics {
   background: url("../../images/background/Layer 8.png") no-repeat center center fixed;
   padding-bottom: 20px;
+}
+main .partenr {
+  background-image: url("../../images/background/Rectangle 10.png");
+  padding-top: 5px;
+  margin: 20px 0 0 0;
+}
+main .partenr .section-title {
+  margin: 0;
+  padding: 20px 0 90px 0;
+  color: #FFF;
+}
+main .partenr .owl-carousel .owl-nav,
+main .partenr .owl-carousel .owl-dots {
+  display: none;
+}
+main .partenr .owl-carousel .owl-item {
+  margin-right: 40px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
