@@ -364,6 +364,11 @@ img {
 .new-card .card-bottom {
   margin: 0 0 20px 20px;
 }
+@media only screen and (max-width: 1200px) {
+  .new-card {
+    max-width: 100%;
+  }
+}
 
 /* executive-card */
 .executive-card {
@@ -509,11 +514,11 @@ img {
     display: none;
   }
   .main-header .header-mobile {
-    background: url("../../images/background/slide1.jpg") no-repeat center center;
+    display: inline;
+    background: url("../../images/background/slide11.jpg") no-repeat center center;
     background-size: cover;
     height: 550px;
     color: #FFF;
-    display: inline;
   }
   .main-header .header-mobile .overlay {
     padding: 60px 0;
@@ -587,6 +592,22 @@ img {
   font-size: 20px;
   color: #DDD;
 }
+@media only screen and (max-width: 1200px) {
+  .main-footer {
+    padding-bottom: 0;
+  }
+  .main-footer .body-footer ul {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #595C61;
+  }
+  .main-footer .body-footer .side-right .input-form {
+    width: 55%;
+  }
+  .main-footer .body-footer .side-right .btn-submit {
+    font-weight: 100;
+  }
+}
 
 /* ========== Contain Home page style ========== */
 /* Colors */
@@ -647,6 +668,12 @@ main .overview p {
 main .statistics {
   background: url("../../images/background/Layer 8.png") no-repeat center center;
   padding-bottom: 20px;
+  background-size: cover;
+}
+@media only screen and (max-width: 1200px) {
+  main .statistics {
+    height: auto;
+  }
 }
 main .partenr {
   background-image: url("../../images/background/Rectangle 10.png");

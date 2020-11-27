@@ -57,6 +57,11 @@ main {
     .statistics {
         background: url('../../images/background/Layer\ 8.png') no-repeat center center;
         padding-bottom: 20px;
+        background-size: cover;
+
+        @media #{$MediumDevices} {
+            height: auto;
+        }
     }
 
     /* Partner Section */

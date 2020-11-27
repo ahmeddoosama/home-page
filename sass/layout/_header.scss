@@ -93,11 +93,11 @@
         }
 
         .header-mobile {
-            background: url('../../images/background/slide1.jpg') no-repeat center center;
+            display: inline;
+            background: url("../../images/background/slide11.jpg") no-repeat center center;
             background-size: cover;
             height: 550px;
             color: #FFF;
-            display: inline;
 
             .overlay {
                 padding: 60px 0;

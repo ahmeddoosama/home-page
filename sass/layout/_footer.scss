@@ -53,4 +53,26 @@
         }
 
     }
+
+    @media #{$MediumDevices} {
+        padding-bottom: 0;
+
+        .body-footer {
+            ul {
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid $gray;
+            }
+
+            .side-right {
+                .input-form {
+                    width: 55%;
+                }
+
+                .btn-submit {
+                    font-weight: 100;
+                }
+            }
+        }
+    }
 }
