@@ -1,0 +1,128 @@
+/* ========== Contain Header style ========== */
+@import '../partials/variables';
+@import '../partials/colors';
+
+/* ========== Header ========== */
+.main-header {
+
+    .carousel {
+        .carousel-item {
+            background-size: cover;
+            height: 550px;
+            background: url('../../images/background/Layer\ 25.png') no-repeat center center;
+
+            .carousel-body {
+                padding-top: 6%;
+                padding-left: 30px;
+                width: 60%;
+                height: 550px;
+                background: url('../../images/background/Rectangle\ 3.png') no-repeat;
+
+                h1 {
+                    line-height: 1.3;
+                    color: $mainColor;
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    color: $dimgray;
+                }
+
+            }
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            position: absolute;
+            right: 3%;
+            background-image: unset;
+            color: #FFF;
+        }
+
+        .carousel-control-prev-icon {
+            top: 50%;
+
+            &:hover {
+                color: #e9673b;
+            }
+        }
+
+        .carousel-control-next-icon {
+            top: 30%;
+
+            &:hover {
+                color: #e9673b;
+            }
+        }
+
+        .carousel-indicators {
+            display: block;
+            right: 45px;
+            bottom: 50%;
+            left: unset;
+            margin: 0;
+
+            >li {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: 1px solid #FFF;
+                margin-bottom: 15px;
+
+                &:hover {
+                    background-color: #e9673b;
+                }
+            }
+
+            .active {
+                background-color: #e9673b;
+            }
+        }
+
+
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+
+    @media #{$MediumDevices} {
+        .carousel {
+            display: none;
+        }
+
+        .header-mobile {
+            background: url('../../images/background/slide1.jpg') no-repeat center center;
+            background-size: cover;
+            height: 550px;
+            color: #FFF;
+            display: inline;
+
+            .overlay {
+                padding: 60px 0;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.7);
+                z-index: 2;
+
+                h1 {
+                    font-size: 35px;
+                    padding-bottom: 35px;
+                    color: #e9673b;
+                    line-height: 1.5;
+                }
+
+                p {
+                    font-size: 17px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}
