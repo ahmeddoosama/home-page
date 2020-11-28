@@ -27,7 +27,13 @@
         ul {
             > li {
                 line-height: 2;
-                color: $whitegray;
+            }
+        }
+
+        a {
+            color: $whitegray;
+            &:hover {
+                color: $mainColor;
             }
         }
 

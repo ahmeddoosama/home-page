@@ -869,7 +869,12 @@ img {
 }
 .main-footer .body-footer ul > li {
   line-height: 2;
+}
+.main-footer .body-footer a {
   color: #DDD;
+}
+.main-footer .body-footer a:hover {
+  color: #e44b37;
 }
 .main-footer .body-footer .side-right .input-form {
   width: 60%;
@@ -945,7 +950,8 @@ main .statistics h3 {
   color: #FFF !important;
 }
 main .overview {
-  background: url("../images/background/bg-overview.png") no-repeat center center;
+  background: url("../images/background/bg-overview.png") no-repeat center center fixed;
+  background-size: cover;
 }
 main .overview p {
   font-size: 18px;
@@ -966,7 +972,7 @@ main .overview p {
   }
 }
 main .statistics {
-  background: url("../images/background/bg-staitics.png") no-repeat center center;
+  background: url("../images/background/bg-staitics.png") no-repeat center center fixed;
   padding-bottom: 20px;
   background-size: cover;
 }

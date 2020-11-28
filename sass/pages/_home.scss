@@ -36,7 +36,8 @@ main {
 
     /* overview sections */
     .overview {
-        background: url('../images/background/bg-overview.png') no-repeat center center;
+        background: url('../images/background/bg-overview.png') no-repeat center center fixed;
+        background-size: cover;
 
         p {
             font-size: 18px;
@@ -62,7 +63,7 @@ main {
 
     /* statistics sections */
     .statistics {
-        background: url('../images/background/bg-staitics.png') no-repeat center center;
+        background: url('../images/background/bg-staitics.png') no-repeat center center fixed;
         padding-bottom: 20px;
         background-size: cover;
 
