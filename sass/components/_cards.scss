@@ -47,6 +47,30 @@
     }
 }
 
+/* executive-card */
+.executive-card {
+    margin: 0;
+    border-radius: 0;
+
+    .card-img-top {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .card-body {
+        .card-title {
+            font-size: 23px !important;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        span {
+            font-weight: bold;
+            color: $mainColor;
+        }
+    }
+}
+
 /* statistics Card */
 .statistic-card {
     .card-top {
@@ -71,7 +95,7 @@
         }
     }
     &:hover {
-         span {
+        span {
             color: $mainColor;
             background-color: $white;
         }
@@ -103,23 +127,6 @@
 
     @media #{$MediumDevices} {
         max-width: 100%;
-    }
-}
-
-/* executive-card */
-.executive-card {
-    margin: 0;
-    .card-body {
-        .card-title {
-            font-size: 23px !important;
-            font-weight: 600;
-            margin-bottom: 0;
-        }
-    
-        span {
-            font-weight: bold;
-            color: $mainColor;
-        }
     }
 }
 

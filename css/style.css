@@ -83,7 +83,7 @@ p {
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.5;
   margin: 0px;
   transition: all 500ms ease;
 }
@@ -535,6 +535,25 @@ img {
   color: #595C61;
 }
 
+/* executive-card */
+.executive-card {
+  margin: 0;
+  border-radius: 0;
+}
+.executive-card .card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.executive-card .card-body .card-title {
+  font-size: 23px !important;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.executive-card .card-body span {
+  font-weight: bold;
+  color: #e44b37;
+}
+
 /* statistics Card */
 .statistic-card .card-top > span {
   padding: 10px 20px;
@@ -584,20 +603,6 @@ img {
   .new-card {
     max-width: 100%;
   }
-}
-
-/* executive-card */
-.executive-card {
-  margin: 0;
-}
-.executive-card .card-body .card-title {
-  font-size: 23px !important;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-.executive-card .card-body span {
-  font-weight: bold;
-  color: #e44b37;
 }
 
 .side-left .executive-card {
@@ -910,11 +915,15 @@ main {
   /* statistics sections */
   /* overview sections */
   /* statistics sections */
+  /* executives sections */
   /* Partner Section */
 }
 main section {
   margin: 20px 0 40px 0;
   text-align: center;
+}
+main .our-service {
+  padding-bottom: 50px;
 }
 main .our-service .card-group {
   padding-bottom: 40px;
@@ -930,10 +939,11 @@ main .statistics h3 {
   color: #FFF !important;
 }
 main .overview {
-  background: url("../../images/background/Layer 7.png") no-repeat center center;
+  background: url("../../images/background/bg-overview.png") no-repeat center center;
 }
 main .overview p {
   font-size: 18px;
+  line-height: 1.5;
   color: #FFF !important;
 }
 @media only screen and (max-width: 1200px) {
@@ -958,6 +968,16 @@ main .statistics {
   main .statistics {
     height: auto;
   }
+}
+main .executives .side-left .executive-card {
+  color: #000;
+}
+main .executives .side-left .executive-card .card-text {
+  padding: 20px 0 30px 0px;
+}
+main .executives .side-right .executive-card .card-body .card-title {
+  font-size: 16px !important;
+  color: #000;
 }
 main .partenr {
   background-image: url("../../images/background/Rectangle 10.png");
