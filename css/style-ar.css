@@ -1,0 +1,62 @@
+/*
+Name: 			style-ar.scss
+Written by: 	Ahmed Osama Bedawy - (https://github.com/ahmeddoosama)
+*/
+
+/* ========== Navbar ========== */
+.main-nav .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+}
+
+.main-nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    text-align: start !important;
+    padding: 10px 10px 10px 70px !important;
+}
+
+.main-nav .navbar-collapse .navbar-nav .nav-item .search-bar {
+    right: 70%;
+}
+
+.btn-search {
+    right: unset;
+    left: 15px;
+}
+/* ========== End Navbar ========== */
+
+/* ========== Header ========== */
+.main-header .carousel-item {
+    background: url('../images/background/bg-header-mobile.jpg') no-repeat center center !important;
+}
+
+.main-header .carousel-item .carousel-body{
+    background: unset !important;
+    text-align: start;
+}
+
+.main-header .carousel .carousel-item .carousel-body p {
+    color: #FFF;
+    width: 70%;
+}
+
+.main-header .carousel .carousel-control-prev-icon,
+.main-header .carousel .carousel-control-next-icon {
+    right: unset;
+    left: 4%;
+}
+
+.main-header .carousel .carousel-indicators {
+    right: unset;
+    left: 52px;
+}
+/* ========== End Header ========== */
+
+/* ========== Footer ========== */
+.main-footer .body-footer {
+    text-align: start;
+}
+
+.main-footer .body-footer .btn-submit {
+    right: unset;
+    left: 4px;
+}
+/* ========== End Footer ========== */
