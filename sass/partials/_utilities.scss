@@ -104,7 +104,48 @@ img {
     text-align: $text-align-center;
     font-size: $title-font-size;
     font-weight: $font-weight-600;
-    margin: $title-margin;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+/* line */
+.line {
+    margin-bottom: 40px;
+    div {
+        display: inline-block;
+    }
+
+    div:first-child {
+        width: 0;
+        height: 0;
+        border: 7px solid transparent;
+        border-bottom-color: $mainColor;
+        position: relative;
+        top: -4px;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: -7px;
+            top: 7px;
+            width: 0;
+            height: 0;
+            border: 7px solid transparent;
+            border-top-color: $mainColor;
+        }
+    }
+
+    div:not(:first-child) {
+        width: 20px;
+        height: 7px;
+        background-color: $mainColor;
+    }
+
+    div:nth-child(2) {
+        width: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 }
 
 /* Scroll */
@@ -291,4 +332,5 @@ img {
         letter-spacing: 10px;
     }
 }
+
 /* preloader end */

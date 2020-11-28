@@ -38,10 +38,12 @@
 /* btn-service */
 .btn-service {
     color: $gray;
-    border: 1px solid $gray;
+    border: 1px solid $whitegray;
     padding: 7px 50px;
     border-radius: 10px;
     font-size: 18px;
+    box-shadow: none;
+    text-transform: uppercase;
 }
 
 /* btn-card */
