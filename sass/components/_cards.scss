@@ -86,11 +86,10 @@
         color: $white;
         .card-title {
             font-size: 30px;
-            font-weight: 600;
         }
         .card-text {
             font-size: 20px;
-            font-weight: 600;
+            font-weight: $font-weight-600;
             line-height: 1;
         }
     }
@@ -109,16 +108,21 @@
     box-shadow: 0 5px 15px 0 rgba(110, 110, 110, 0.2);
     max-width: 30.333333%;
     margin-right: 3%;
+    font-weight: bold;
     .card-body {
         .card-title {
             font-weight: $font-weight-600;
             font-size: 21px;
+            margin-bottom: 5px;
         }
         .data {
             color: $gray;
         }
         .card-text {
-            font-size: 16px;
+            font-size: 15px;
+            margin-top: 15px;
+            font-weight: 600 !important;
+            line-height: 1.4;
         }
     }
     .card-bottom {
