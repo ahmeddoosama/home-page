@@ -7,12 +7,12 @@
 
     .carousel {
         .carousel-item {
-            background: url('../../images/background/background-header.png') no-repeat center center;
+            background: url('../images/background/background-header.png') no-repeat center center;
             background-size: cover;
             height: 550px;
 
             .carousel-body {
-                background: url('../../images/background/Rectangle-header.png') no-repeat;
+                background: url('../images/background/Rectangle-header.png') no-repeat;
                 padding-top: 6%;
                 padding-left: 30px;
                 height: 550px;
@@ -119,23 +119,13 @@
 
         .header-mobile {
             display: inline-block;
-            background: url("../../images/background/bg-header-mobile.jpg") no-repeat center center;
+            background: url('../images/background/bg-header-mobile.jpg') no-repeat center center;
             background-size: cover;
             height: 550px;
             color: $white;
             width: 100%;
 
             .overlay {
-                padding: 60px 0;
-                position: relative;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-color: rgba(0,0,0,0.7);
-                z-index: 2;
 
                 .header-mobile-content{
                     padding-top: 12%;

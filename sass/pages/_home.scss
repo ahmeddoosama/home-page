@@ -36,7 +36,7 @@ main {
 
     /* overview sections */
     .overview {
-        background: url('../../images/background/bg-overview.png') no-repeat center center;
+        background: url('../images/background/bg-overview.png') no-repeat center center;
 
         p {
             font-size: 18px;
@@ -62,7 +62,7 @@ main {
 
     /* statistics sections */
     .statistics {
-        background: url('../../images/background/Layer\ 8.png') no-repeat center center;
+        background: url('../images/background/bg-staitics.png') no-repeat center center;
         padding-bottom: 20px;
         background-size: cover;
 
@@ -115,7 +115,7 @@ main {
                 width: 1100px;
                 height: 100px;
                 position: relative;
-                background: white;
+                background: $white;
                 display: flex;
                 overflow: hidden;
 

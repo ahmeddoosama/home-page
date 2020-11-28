@@ -718,12 +718,12 @@ img {
   /* Header Mobile */
 }
 .main-header .carousel .carousel-item {
-  background: url("../../images/background/background-header.png") no-repeat center center;
+  background: url("../images/background/background-header.png") no-repeat center center;
   background-size: cover;
   height: 550px;
 }
 .main-header .carousel .carousel-item .carousel-body {
-  background: url("../../images/background/Rectangle-header.png") no-repeat;
+  background: url("../images/background/Rectangle-header.png") no-repeat;
   padding-top: 6%;
   padding-left: 30px;
   height: 550px;
@@ -807,23 +807,11 @@ img {
   }
   .main-header .header-mobile {
     display: inline-block;
-    background: url("../../images/background/bg-header-mobile.jpg") no-repeat center center;
+    background: url("../images/background/bg-header-mobile.jpg") no-repeat center center;
     background-size: cover;
     height: 550px;
     color: #FFF;
     width: 100%;
-  }
-  .main-header .header-mobile .overlay {
-    padding: 60px 0;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 2;
   }
   .main-header .header-mobile .overlay .header-mobile-content {
     padding-top: 12%;
@@ -957,7 +945,7 @@ main .statistics h3 {
   color: #FFF !important;
 }
 main .overview {
-  background: url("../../images/background/bg-overview.png") no-repeat center center;
+  background: url("../images/background/bg-overview.png") no-repeat center center;
 }
 main .overview p {
   font-size: 18px;
@@ -978,7 +966,7 @@ main .overview p {
   }
 }
 main .statistics {
-  background: url("../../images/background/Layer 8.png") no-repeat center center;
+  background: url("../images/background/bg-staitics.png") no-repeat center center;
   padding-bottom: 20px;
   background-size: cover;
 }
@@ -1014,7 +1002,7 @@ main .partenr .company-wrapper .slider-partner {
   width: 1100px;
   height: 100px;
   position: relative;
-  background: white;
+  background: #FFF;
   display: flex;
   overflow: hidden;
 }
