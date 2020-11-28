@@ -999,12 +999,13 @@ main .partenr .section-title {
   margin: 0;
   padding: 20px 0 0 0;
 }
-main .partenr .company-wrapper {
+
+.company-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .partenr .company-wrapper .slider-partner {
+.company-wrapper .slider-partner {
   width: 1100px;
   height: 100px;
   position: relative;
@@ -1012,17 +1013,18 @@ main .partenr .company-wrapper .slider-partner {
   display: flex;
   overflow: hidden;
 }
-main .partenr .company-wrapper .slider-partner .slide-partner {
+.company-wrapper .slider-partner .slide-partner {
   height: 100px;
   display: flex;
   align-items: center;
   animation: slideshow 8s linear infinite;
 }
-main .partenr .company-wrapper .slider-partner .slide-partner img {
+.company-wrapper .slider-partner .slide-partner img {
+  max-width: none;
   height: 125px;
   padding: 0 30px 0 30px;
 }
-main .partenr .company-wrapper .slider-partner::before, main .partenr .company-wrapper .slider-partner::after {
+.company-wrapper .slider-partner::before, .company-wrapper .slider-partner::after {
   height: 100px;
   width: 200px;
   position: absolute;
@@ -1030,11 +1032,11 @@ main .partenr .company-wrapper .slider-partner::before, main .partenr .company-w
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   z-index: 2;
 }
-main .partenr .company-wrapper .slider-partner::before {
+.company-wrapper .slider-partner::before {
   left: 0;
   top: 0;
 }
-main .partenr .company-wrapper .slider-partner::after {
+.company-wrapper .slider-partner::after {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
